@@ -9,6 +9,10 @@ body {
   font-family: var(--default-font-family);
 }
 
+.bg-navbar {
+  background-color: var(--secondary-color);
+}
+
 h1,
 h2,
 h3,
@@ -73,6 +77,17 @@ p {
 
 .project-description {
   padding: 120px 60px;
+}
+
+.about-description {
+  padding: 100px 60px 0;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--branding-color);
+  text-decoration: none;
 }
 
 @media (max-width: 960px) {
