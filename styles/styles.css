@@ -109,8 +109,6 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
   color: var(--branding-color);
   text-decoration: none;
 }
