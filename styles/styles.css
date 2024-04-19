@@ -83,6 +83,20 @@ p {
   padding: 100px 60px 0;
 }
 
+.about-description h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-description h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-description-content {
+  padding: 30px;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -103,6 +117,10 @@ p {
   }
 
   .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .about-description {
     padding: 0;
     text-align: center;
   }
