@@ -113,6 +113,33 @@ p {
   text-decoration: none;
 }
 
+nav {
+  padding: 15px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 120ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
@@ -132,5 +159,8 @@ p {
   .content {
     padding: 0;
     text-align: center;
+  }
+  nav a {
+    font-size: 14px;
   }
 }
